@@ -1,0 +1,22 @@
+{
+    "name": "zeura/google-position",
+    "description": "Discover website position in Google index in CLI command",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Villamarin",
+            "email": "ant@onio.org"
+        }
+    ],
+    "require": {
+        "jeremykendall/php-domain-parser": "~2.0",
+        "nategood/httpful": "0.2.*",
+        "nategood/commando": "0.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/",
+            "lib/"
+        ]
+    }
+}
